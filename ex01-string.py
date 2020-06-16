@@ -2,20 +2,24 @@
 
 # 字符串(String)
 
-#1
-print('"I don\'t know" they said.')
+print('#1')
+print('"I don\'t know" they said.' )
+print('\n')
 
-#2
+print('#2')
 s='First line. \nSecond line.'
 print(s)
+print('\n')
 
-#3
+print('#3')
 print('C:\some\name') # \n means newline
-print(r'C:\some\name')
+print(r'C:\some\name') #直出
+print('\n')
 
-#4
+print('#4')
 print("""\
 This is First line
         and Second line
 """)
+
 
