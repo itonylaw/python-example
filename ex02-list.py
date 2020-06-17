@@ -9,6 +9,7 @@ print(squares[:])
 print(squares + [36, 49])
 print('\n')
 
+
 print('#2')
 cubes = [1, 8, 27, 65, 125]  # something wrong
 print(cubes)
@@ -19,6 +20,7 @@ print(cubes)
 cubes.append(216)
 print(cubes)
 print('\n')
+
 
 print('#3')
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
@@ -34,6 +36,7 @@ print(letters)
 letters[:] = []
 print(letters)
 print('\n')
+
 
 print('#4')
 a = ['a', 'b', 'c']
