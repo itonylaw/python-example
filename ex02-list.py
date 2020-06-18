@@ -37,8 +37,18 @@ letters[:] = []
 print(letters)
 print('\n')
 
-
 print('#4')
+num = list(range(10))
+del num[2:8:2]  # list[start:stop:step]
+print(num)
+
+num2 = list(range(10))
+del num2[::3]
+print(num2)
+print('\n')
+
+
+print('#5')
 a = ['a', 'b', 'c']
 n = [1, 2, 3]
 x = [a, n]
