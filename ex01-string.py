@@ -1,6 +1,12 @@
+"""
+File: ex01-string.py
+Author: TonyDeep
+Date: 2020-06-20
+"""
+
 # This is the comment
 
-# 字符串(String)
+Print('#0 字符串(String)\n')
 
 print('#1')
 print('"I don\'t know" they said.' )

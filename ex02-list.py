@@ -1,3 +1,9 @@
+"""
+File: ex02-list.py
+Author: TonyDeep
+Date: 2020-06-20
+"""
+
 print('#0 列表(List)\n')
 
 print('#1')
