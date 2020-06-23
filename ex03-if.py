@@ -12,11 +12,11 @@ y = int(input('Please enter an integer(1-100):'))
 if y < 0 or y > 100:
     print('out of range')
 elif x < y:
-    print(f'{x}<{y}')
+    print(x, '<', y)
     print('You Win')
 elif x > y:
-    print(f'{x}>{y}')
+    print(x, '>', y)
     print('You Loss')
 else:
-    print(f'{x}={y}')
+    print(x, '=', y)
     print('Super')
