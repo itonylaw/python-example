@@ -13,5 +13,8 @@ dict1['Candy'] = 100
 print(dict1)
 print('\n')
 
+for k in dict1:
+    print(k)
+
 for k, v in dict1.items():
     print(k, v)
