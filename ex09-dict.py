@@ -4,17 +4,20 @@ Author: TonyDeep
 Date: 2020-07-02
 """
 
-print('#1 Dictionary dict1(key: value)')
-dict1 = {'Alice': 123, 'Becky': 456, 'Candy': 789}
-print(dict1)
-print(dict1['Becky'])
+print('#1 Dictionary score(key: value)')
+score = {'Alice': 78, 'Becky': 56, 'Candy': 93}
+print(score)
+print(score['Becky'])
 
-dict1['Candy'] = 100
-print(dict1)
+score['Candy'] = 100
+print(score)
 print('\n')
 
-for k in dict1:
+print(score.keys())
+print(score.values())
+
+for k in score:
     print(k)
 
-for k, v in dict1.items():
+for k, v in score.items():
     print(k, v)
